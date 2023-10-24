@@ -1,0 +1,20 @@
+﻿  Compiling CUDA source file student_func.cu...
+  
+  C:\Users\Lu\Documents\U-tad\Programacion Concurrente\Trabajos\Practica2 - memoria\Practica2>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\bin\nvcc.exe" -gencode=arch=compute_50,code=\"sm_50,compute_50\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64" -x cu   -I"C:\Users\Lu\Documents\U-tad\Programacion Concurrente\Trabajos\Practica2 - memoria\opencv\build\include" -I"C:\Users\Lu\Documents\U-tad\Programacion Concurrente\Trabajos\Practica2 - memoria\opencv\build\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o "C:\Users\Lu\Documents\U-tad\Programacion Concurrente\Trabajos\Practica2 - memoria\Practica2\x64\Debug\student_func.cu.obj" "C:\Users\Lu\Documents\U-tad\Programacion Concurrente\Trabajos\Practica2 - memoria\Practica2\student_func.cu" 
+C:\Users\Lu\Documents\U-tad\Programacion Concurrente\Trabajos\Practica2 - memoria\Practica2\student_func.cu(40): warning #181-D: argument is incompatible with corresponding format string conversion (expected type "int" but argument has type "double")
+            printf("%d", sharedFilter[index]);
+                         ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+  student_func.cu
+  tmpxft_00004f00_00000000-7_student_func.cudafe1.cpp
+C:\Users\Lu\Documents\U-tad\Programacion Concurrente\Trabajos\Practica2 - memoria\Practica2\student_func.cu(143): warning C4244: 'inicializando': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\Lu\Documents\U-tad\Programacion Concurrente\Trabajos\Practica2 - memoria\Practica2\student_func.cu(148): warning C4244: 'argumento': conversión de 'float' a 'unsigned int'; posible pérdida de datos
+C:\Users\Lu\Documents\U-tad\Programacion Concurrente\Trabajos\Practica2 - memoria\Practica2\student_func.cu(148): warning C4244: 'argumento': conversión de 'float' a 'unsigned int'; posible pérdida de datos
+C:\Users\Lu\Documents\U-tad\Programacion Concurrente\Trabajos\Practica2 - memoria\Practica2\student_func.cu(152): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\Lu\Documents\U-tad\Programacion Concurrente\Trabajos\Practica2 - memoria\Practica2\student_func.cu(163): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\Lu\Documents\U-tad\Programacion Concurrente\Trabajos\Practica2 - memoria\Practica2\student_func.cu(172): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\Lu\Documents\U-tad\Programacion Concurrente\Trabajos\Practica2 - memoria\Practica2\student_func.cu(181): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\Lu\Documents\U-tad\Programacion Concurrente\Trabajos\Practica2 - memoria\Practica2\student_func.cu(191): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+  Practica2.vcxproj -> C:\Users\Lu\Documents\U-tad\Programacion Concurrente\Trabajos\Practica2 - memoria\x64\Debug\Practica2.exe
